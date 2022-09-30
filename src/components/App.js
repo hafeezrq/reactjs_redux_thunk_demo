@@ -1,5 +1,11 @@
+import PostsList from './PostsList';
+
 function App() {
-  return <div className='App'>app</div>;
+  return (
+    <div className='ui container'>
+      <PostsList />
+    </div>
+  );
 }
 
 export default App;
